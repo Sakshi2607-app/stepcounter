@@ -137,10 +137,9 @@ class _MyAppState extends State<MyApp> {
               height: 250, //largo tambien por numero height: 300
               decoration: BoxDecoration(
                   gradient: LinearGradient(
-                    begin: Alignment
-                        .bottomCenter, //cambia la iluminacion del degradado
+                    begin: Alignment.bottomCenter, //cambia la iluminacion del degradado
                     end: Alignment.topCenter,
-                    colors: [Color(0xFFA9F5F2), Color(0xFF01DFD7)],
+
                   ),
                   borderRadius: BorderRadius.only(
                     bottomLeft: Radius.circular(27.0),
